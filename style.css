@@ -1,0 +1,21 @@
+#movieInfo {
+  background-color: white;
+  width: 50%;
+  margin: 0 auto;
+}
+
+html, h1 {
+    background-color: linen;
+    overflow: hidden;
+}
+button {
+  background-color: lightblue; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+ 

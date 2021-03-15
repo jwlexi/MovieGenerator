@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Movie Recommendation</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  </head>
+  <body class = "text-center p-4">
+    <h1> Welcome!</h1>
+    <strong> Thank you for trusting in us to make a decision for you. Enter a number (some numbers may not have movies) <br> We will recommend you a random movie to watch based on the number you enter. We will also provide you basic information about that movie. </strong>
+    <br> <br>
+    <input type="text" placeholder="Enter number here..." id = "Search"> <br> <br>
+    <button id="searchBtn">Search! </button>
+    <p id = "error" class = "bg-danger"></p>
+    <br> <br>
+    <div id = "movieInfo"> 
+        </div>
+    <div id = "gif"> </div>
+    <div id = "ps"> </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
